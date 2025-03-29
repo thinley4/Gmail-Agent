@@ -33,7 +33,7 @@ llm = init_chat_model("llama3-8b-8192", model_provider="groq")
 
 agent_executor = create_react_agent(llm, tools)
 
-example_query = "Send an email to thinleylama44@gmail.com saying hello"
+example_query = "Send an email to xyz@gmail.com saying hello"
 
 events = agent_executor.stream(
     {"messages": [("user", example_query)]},
