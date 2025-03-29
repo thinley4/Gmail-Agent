@@ -1,10 +1,16 @@
 # Gmail-Agent
 
-Followed this documentation from LangChain: [Gmail Integration](https://python.langchain.com/docs/integrations/tools/gmail/)
+## Gmail Integration
 
-create file
-credentials.json
+Follow the [Gmail Integration documentation](https://python.langchain.com/docs/integrations/tools/gmail/) from LangChain.
 
-code
-To run
-streamlit run stream_lit.py
+### Steps to Set Up
+
+1. **Create a `credentials.json` File**  
+    Ensure you have a `credentials.json` file with the necessary credentials for Gmail API access.
+
+2. **Run the Application**  
+    Use the following command to start the application:
+    ```bash
+    streamlit run stream_lit.py
+    ```
